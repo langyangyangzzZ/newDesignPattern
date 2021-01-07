@@ -1,0 +1,20 @@
+@startuml
+
+abstract OrdinaryCar{
+    abstract CarName();
+}
+
+OrdinaryDaZhong ..|> OrdinaryCar
+
+OrdinaryWuLing ..|> OrdinaryCar
+
+OrdinaryFactory ->OrdinaryDaZhong
+
+OrdinaryFactory ->OrdinaryWuLing
+
+消费者 -> OrdinaryFactory
+
+class 消费者
+note bottom :只与OrdinaryFactory交互,不管如何创建车\n我只给你车的类型,你给我返回车
+
+@enduml

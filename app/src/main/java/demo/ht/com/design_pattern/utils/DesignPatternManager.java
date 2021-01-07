@@ -7,7 +7,7 @@ package demo.ht.com.design_pattern.utils;
  * CSDN:https://blog.csdn.net/weixin_44819566
  * 公众号:码上变有钱
  */
-public class MainManager {
+public class DesignPatternManager {
 
     //输出设计模式
     public void showDeignPattern(DesignPattern designPattern){

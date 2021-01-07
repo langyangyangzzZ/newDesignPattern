@@ -1,0 +1,44 @@
+@startuml
+
+interface IComputer
+note left: 电脑类
+
+interface IPhone
+note right: 手机类
+
+HuaWeiPhone --|> IPhone
+
+HuaWeiComputer --|> IComputer
+
+class HuaWeiComputer{}
+note left:华为电脑
+
+class HuaWeiPhone
+note right:华为手机类
+
+class HUaWeiFactory
+note left:华为工厂:
+
+interface TotalFactory{
+    IComputer createComputer();
+    IPhone createPhone();
+}
+
+HUaWeiFactory--|> TotalFactory
+
+IPhone--* HUaWeiFactory
+IComputer--* HUaWeiFactory
+
+class TotalFactory
+note left:总工厂类
+
+
+/'
+XiaoMiFactory --|>TotalFactory
+
+IPhone --*XiaoMiFactory
+
+IComputer --*XiaoMiFactory
+'/
+
+@enduml

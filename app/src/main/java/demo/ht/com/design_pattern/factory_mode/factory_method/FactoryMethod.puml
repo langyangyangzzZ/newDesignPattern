@@ -1,0 +1,30 @@
+@startuml
+interface FaFactory{
+   Car createCar();
+}
+note right:用来创建车类型
+
+abstract class FaCar {
+         abstract void CarName();
+}
+note left:用来创建车名字
+
+FaDaZhong ..|> FaCar
+FaWuLing ..|> FaCar
+FaTeSiLa ..|> FaCar
+
+FaCarDaZhongFactory --|> FaFactory
+FaWuLingFactory --|> FaFactory
+FaTeSiLaFactory --|> FaFactory
+
+
+class FaCarDaZhongFactory{
+     returtn FaDaZhong()
+}
+class FaWuLingFactory{
+     returtn FaWuLing()
+}
+class FaTeSiLaFactory{
+     returtn FaTeSiLa()
+}
+@enduml
