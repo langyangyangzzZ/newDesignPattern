@@ -17,6 +17,8 @@ public class InstanceManager implements DesignPattern {
     @Override
     public void showDesignPattern() {
 
+
+
         ////////////////////////////单利模式 之 恶汉 \\\\\\\\\\\\\\\\\\\\\\\\\\\\
         /*
          * 优点:代码简单,在类转载的时候完成实例化,避免了线程同步
