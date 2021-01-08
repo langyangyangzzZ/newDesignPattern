@@ -1,4 +1,4 @@
-package demo.ht.com.design_pattern.proto_type.demo01;
+package demo.ht.com.design_pattern.proto_type;
 
 import androidx.annotation.NonNull;
 

@@ -2,8 +2,6 @@ package demo.ht.com.design_pattern.proto_type;
 
 import android.util.Log;
 
-import demo.ht.com.design_pattern.proto_type.demo01.LazinessSheep;
-import demo.ht.com.design_pattern.proto_type.demo01.Sheep;
 import demo.ht.com.design_pattern.utils.DesignPattern;
 
 /**
