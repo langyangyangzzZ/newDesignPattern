@@ -1,0 +1,37 @@
+@startuml
+abstract class Builder2{
+   abstract Builder2 createA(String msg);//汉堡
+     abstract Builder2 createB(String msg);//薯条
+     abstract Builder2 createC(String msg);//可乐
+      abstract Builder2 createD(String msg);//鸡翅
+     abstract Product buildProduct();//构建产品
+}
+note left:需要实现的方法\n(你点的食物)
+
+class Maker{
+}
+note left:制造者来创建产品\n(制造食物)
+
+Maker ..|> Builder2
+
+class Product{
+      String  A;//汉堡
+      String  B;//薯条
+      String  C;//可乐
+      String  D;//鸡翅
+      }
+note left:食物细节
+
+Product --* Maker
+
+消费者 -->Maker
+
+ class 消费者{
+  Maker maker;制造者
+
+  maker.汉堡.薯条..\n\t.buildProduct();
+}
+
+
+
+@enduml
