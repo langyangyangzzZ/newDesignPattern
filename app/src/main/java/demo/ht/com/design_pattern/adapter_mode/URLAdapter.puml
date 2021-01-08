@@ -1,0 +1,25 @@
+@startuml
+
+class Adapter{
+    net()
+}
+
+class Computer
+note left:电脑
+
+class Netting{
+     ConnectNetwork();
+}
+
+note left:网线
+
+interface  InettingToComputer{
+void net()
+}
+note left:网线具体实现方法
+
+Adapter --|>InettingToComputer
+Netting--* Adapter
+Computer --* Adapter
+
+@enduml

@@ -1,6 +1,7 @@
 package demo.ht.com.design_pattern;
 
 import androidx.appcompat.app.AppCompatActivity;
+import demo.ht.com.design_pattern.adapter_mode.AdapterManager;
 import demo.ht.com.design_pattern.builder_mode.BuilderManager;
 import demo.ht.com.design_pattern.factory_mode.FactoryManager;
 import demo.ht.com.design_pattern.instance_mode.InstanceManager;
@@ -28,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
 
         //建造者模式
         dpManager.showDeignPattern(new BuilderManager());
+
+        //适配器模式
+        dpManager.showDeignPattern(new AdapterManager());
 
     }
 }
