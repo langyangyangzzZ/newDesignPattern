@@ -16,6 +16,9 @@
 2021/1/7<br>
 [java设计模式之工厂模式(二)](https://blog.csdn.net/weixin_44819566/article/details/112307879)<br>
 
+2021/1/8:<br>
+[java 设计模式之原型模式(三)](https://blog.csdn.net/weixin_44819566/article/details/112345042)
+
 
 
 CSDN地址为:[https://blog.csdn.net/weixin_44819566](https://blog.csdn.net/weixin_44819566)
