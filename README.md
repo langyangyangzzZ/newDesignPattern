@@ -17,7 +17,8 @@
 [java设计模式之工厂模式(二)](https://blog.csdn.net/weixin_44819566/article/details/112307879)<br>
 
 2021/1/8:<br>
-[java 设计模式之原型模式(三)](https://blog.csdn.net/weixin_44819566/article/details/112345042)
+[java 设计模式之原型模式(三)](https://blog.csdn.net/weixin_44819566/article/details/112345042)<br>
+[java设计模式之建造者模式(四)](https://blog.csdn.net/weixin_44819566/article/details/112356907)
 
 
 
