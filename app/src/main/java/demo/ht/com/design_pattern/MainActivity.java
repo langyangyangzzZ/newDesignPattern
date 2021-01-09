@@ -7,6 +7,7 @@ import demo.ht.com.design_pattern.builder_mode.BuilderManager;
 import demo.ht.com.design_pattern.factory_mode.FactoryManager;
 import demo.ht.com.design_pattern.instance_mode.InstanceManager;
 import demo.ht.com.design_pattern.proto_type.ProtoTypeManager;
+import demo.ht.com.design_pattern.proxy_mode.ProxyManager;
 import demo.ht.com.design_pattern.utils.DesignPatternManager;
 
 import android.os.Bundle;
@@ -36,6 +37,9 @@ public class MainActivity extends AppCompatActivity {
 
         //桥接模式
         dpManager.showDeignPattern(new BridgeManager());
+
+        //代理模式
+        dpManager.showDeignPattern(new ProxyManager());
 
     }
 }

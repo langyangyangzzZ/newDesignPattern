@@ -1,0 +1,27 @@
+@startuml
+
+interface IHouse{
+   void showHouse();
+}
+note left:需要代理的房子
+
+class HouseMaster
+note left:房东
+HouseMaster --|> IHouse
+
+class HouseProxy{
+    IHouse house;
+    seeHouse()
+    money()
+}
+note right:中介代理房子\n中介还可以收取中介费\n中介还可以带我们看房子
+
+HouseProxy --*  IHouse
+
+class 我{
+}
+
+我 --> HouseProxy
+
+
+@enduml
