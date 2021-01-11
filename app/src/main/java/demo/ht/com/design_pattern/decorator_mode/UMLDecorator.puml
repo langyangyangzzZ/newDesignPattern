@@ -35,6 +35,13 @@ Egg ..|> GarnishFood
 Bacon ..|> GarnishFood
 
 
+interface A
+
+class B
+
+B ..|> A
+
+
 
 
 

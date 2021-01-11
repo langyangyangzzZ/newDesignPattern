@@ -1,0 +1,19 @@
+@startuml
+
+abstract School
+note left:学校类
+
+class Teacher
+note left:老师类
+
+class Student
+note right:学生类
+
+Teacher --|> School
+
+Student --|> School
+
+School --o Teacher
+School --o Student
+
+@enduml
