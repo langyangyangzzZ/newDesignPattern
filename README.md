@@ -27,7 +27,8 @@
 
 2021/1/11:<br>
 [java 设计模式之修饰者(装饰者)模式(八)](https://blog.csdn.net/weixin_44819566/article/details/112461664)<br>
-[java 设计模式 之 结构型:组合模式(九)](https://blog.csdn.net/weixin_44819566/article/details/112469634)<br><br>
+[java 设计模式 之 结构型:组合模式(九)](https://blog.csdn.net/weixin_44819566/article/details/112469634)<br>
+[java 设计模式 之 结构型:外观模式(十)](https://blog.csdn.net/weixin_44819566/article/details/112476121)<br><br>
 
 
 
