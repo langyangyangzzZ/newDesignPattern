@@ -1,0 +1,24 @@
+@startuml
+class 客户端
+
+class Computer
+note top:电脑类
+
+class Phone
+note top:手机类
+
+class AirConditioner
+note top:空调类
+
+class Television
+note top:电视类
+
+Television --o 客户端
+AirConditioner--o 客户端
+Phone--o 客户端
+Computer--o 客户端
+
+class 客户端
+
+'缓冲层 --> 客户端
+@enduml
