@@ -18,7 +18,12 @@
 
 2021/1/8:<br>
 [java 设计模式之原型模式(三)](https://blog.csdn.net/weixin_44819566/article/details/112345042)<br>
-[java设计模式之建造者模式(四)](https://blog.csdn.net/weixin_44819566/article/details/112356907)
+[java设计模式之建造者模式(四)](https://blog.csdn.net/weixin_44819566/article/details/112356907)<br>
+[java 设计模式之适配器模式(五)](https://blog.csdn.net/weixin_44819566/article/details/112365209)<br><br>
+
+2021/1/9:<br>
+[java 设计模式之桥接模式(六)](https://blog.csdn.net/weixin_44819566/article/details/112387613)<br>
+[java 设计模式之代理模式(七)](https://blog.csdn.net/weixin_44819566/article/details/112390541)<br><br>
 
 
 
