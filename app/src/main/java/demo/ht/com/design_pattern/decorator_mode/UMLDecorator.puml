@@ -1,0 +1,41 @@
+@startuml
+
+class Food{
+    String name;//名字
+     float price;//价格
+     totalPrice();总价
+}
+note left:食物类
+
+class Noodles
+note left:面条类
+
+class FriedRice
+note right:炒饭类
+
+FriedRice..|> Food
+
+Noodles..|> Food
+
+GarnishFood --o Food
+
+class GarnishFood{
+    Food food;
+}
+
+note right:装饰类
+
+class Egg
+note left:鸡蛋类
+
+class Bacon
+note right :培根类
+
+Egg ..|> GarnishFood
+Bacon ..|> GarnishFood
+
+
+
+
+
+@enduml

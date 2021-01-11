@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import demo.ht.com.design_pattern.adapter_mode.AdapterManager;
 import demo.ht.com.design_pattern.bridge_mode.BridgeManager;
 import demo.ht.com.design_pattern.builder_mode.BuilderManager;
+import demo.ht.com.design_pattern.decorator_mode.DecoratorManager;
 import demo.ht.com.design_pattern.factory_mode.FactoryManager;
 import demo.ht.com.design_pattern.instance_mode.InstanceManager;
 import demo.ht.com.design_pattern.proto_type.ProtoTypeManager;
@@ -40,6 +41,9 @@ public class MainActivity extends AppCompatActivity {
 
         //代理模式
         dpManager.showDeignPattern(new ProxyManager());
+
+        //装饰器模式
+        dpManager.showDeignPattern(new DecoratorManager());
 
     }
 }
