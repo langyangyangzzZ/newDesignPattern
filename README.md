@@ -23,7 +23,7 @@
 
 2021/1/9:<br>
 [java 设计模式之桥接模式(六)](https://blog.csdn.net/weixin_44819566/article/details/112387613)<br>
-[java 设计模式 之 创建型:代理模式(七)](https://blog.csdn.net/weixin_44819566/article/details/112390541)<br><br>
+[java 设计模式之代理模式(七)](https://blog.csdn.net/weixin_44819566/article/details/112390541)<br><br>
 
 
 
