@@ -1,0 +1,15 @@
+@startuml
+
+class 长方形
+class 正方形
+class 圆形
+class 三角形
+
+class 客户端
+
+长方形 ..> 客户端
+正方形 ..> 客户端
+圆形 ..>客户端
+三角形 ..> 客户端
+
+@enduml
