@@ -30,6 +30,10 @@
 [java 设计模式 之 结构型:组合模式(九)](https://blog.csdn.net/weixin_44819566/article/details/112469634)<br>
 [java 设计模式 之 结构型:外观模式(十)](https://blog.csdn.net/weixin_44819566/article/details/112476121)<br><br>
 
+2021/1/12:<br>
+[java 设计模式之享元模式(十一)](https://blog.csdn.net/weixin_44819566/article/details/112523407)<br>
+[Android 如何改变应用图标](https://blog.csdn.net/weixin_44819566/article/details/112533812)<br><br>
+
 
 
 CSDN地址为:[https://blog.csdn.net/weixin_44819566](https://blog.csdn.net/weixin_44819566)
