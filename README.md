@@ -32,7 +32,10 @@
 
 2021/1/12:<br>
 [java 设计模式之享元模式(十一)](https://blog.csdn.net/weixin_44819566/article/details/112523407)<br>
-[Android 如何改变应用图标](https://blog.csdn.net/weixin_44819566/article/details/112533812)<br><br>
+[Android 如何改变应用图标](https://blog.csdn.net/weixin_44819566/article/details/112533812)<br><br><br>
+
+2021/1/15：<br>
+[java 设计模式之模板方法模式(十二)](https://blog.csdn.net/weixin_44819566/article/details/112651624)<br>
 
 
 
