@@ -19,6 +19,7 @@ public class PureSoybeanMilkImpl extends ATemplate {
     //不加糖
     @Override
     public boolean isSugar() {
+
         return false;
     }
 }

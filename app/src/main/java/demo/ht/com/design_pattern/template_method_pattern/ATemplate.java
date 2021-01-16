@@ -21,7 +21,6 @@ public abstract class ATemplate {
             sugar();  //准备冰糖
         }
         polish(); //打豆浆
-
     }
 
     //准备黄豆

@@ -21,8 +21,4 @@ note right:红浆放入红豆
 BlackSoybeanMilkImpl --|> ATemplate
 
 RedSoybeanMilkImpl --|> ATemplate
-
-
-
-
 @enduml

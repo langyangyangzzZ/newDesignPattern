@@ -33,5 +33,6 @@ public  class TemplateManager implements DesignPattern {
         PureSoybeanMilkImpl pureSoybeanMilk = new PureSoybeanMilkImpl();
         pureSoybeanMilk.aemplate();
 
+
     }
 }

@@ -14,7 +14,6 @@ import android.util.Log;
 public class RedSoybeanMilkImpl extends ATemplate {
     @Override
     public void addBean() {
-
         Log.i("模板方法模式 ","放入 红豆浆");
     }
 }
