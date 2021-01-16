@@ -1,0 +1,33 @@
+@startuml
+
+interface ICommand{
+    进攻
+    后退
+}
+note left: 命令接口
+
+class Soldiers{
+    进攻
+    后退
+}
+note left: 士兵(具体命令执行者)
+
+class Admiral{
+   ICommand mICommand;
+}
+note left: 将军(命令发送者)
+
+class CommandContent{
+     使用弓远程消耗
+
+     大刀队冲锋
+
+     骑兵连进攻
+}
+note left: 命令具体内容
+
+Soldiers ..|> ICommand
+Admiral o-- ICommand
+CommandContent --o Soldiers
+
+@enduml

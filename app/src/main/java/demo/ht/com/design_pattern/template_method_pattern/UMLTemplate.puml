@@ -1,0 +1,28 @@
+@startuml
+
+abstract ATemplate{
+   void aemplate();//用来规范豆浆流程
+   void soybean();//准备黄豆
+   abstract addBean();//添加豆子
+   void sugar();//准备冰糖
+   void polish();//打豆浆
+}
+note left:模板方法规范制作流程
+
+class BlackSoybeanMilkImpl{
+    soybean();
+}
+note left:黑豆浆放入黑豆
+
+class RedSoybeanMilkImpl{
+    soybean();
+}
+note right:红浆放入红豆
+BlackSoybeanMilkImpl --|> ATemplate
+
+RedSoybeanMilkImpl --|> ATemplate
+
+
+
+
+@enduml
