@@ -18,6 +18,7 @@ import demo.ht.com.design_pattern.proto_type.ProtoTypeManager;
 import demo.ht.com.design_pattern.proxy_mode.ProxyManager;
 import demo.ht.com.design_pattern.template_method_pattern.TemplateManager;
 import demo.ht.com.design_pattern.utils.DesignPatternManager;
+import demo.ht.com.design_pattern.visitor_pattern.VisitorManager;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -54,6 +55,9 @@ public class MainActivity extends AppCompatActivity {
 
         //命令模式
         dpManager.showDeignPattern(new CommandManger());
+
+        //访问者模式
+        dpManager.showDeignPattern(new VisitorManager());
     }
 
     /**

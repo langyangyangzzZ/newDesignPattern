@@ -1,0 +1,40 @@
+@startuml
+
+interface Achievement{
+    void fraction();//分数
+}
+note left:成绩接口(被访问者)
+
+class Chinese
+note left:语文
+
+class Mathematics
+note right:数学
+
+Chinese ..|> Achievement
+Mathematics ..|> Achievement
+
+interface Student{
+    void student(Achievement achievement);
+}
+note left:学生类(访问者)
+
+class  XiaoMing
+note left:小明
+
+class XiaoHong
+note right:小红
+
+XiaoMing ..|> Student
+XiaoHong ..|> Student
+
+Achievement--o Student
+
+class ObjectStructure
+note left:主要用来输出学生成绩
+
+
+Student --o ObjectStructure
+Achievement --o ObjectStructure
+
+@enduml
