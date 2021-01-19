@@ -1,0 +1,60 @@
+@startuml
+
+class Group{
+    String name
+}
+note left:小组实体类
+
+class Group01terator{
+Group[] groups;
+}
+note right:小组
+
+class Group02terator{
+ List<Group> mlist;
+}
+note left:小组
+
+interface Iterator
+note left:迭代器(SDK自带)
+
+Group01terator --|> Iterator
+Group02terator --|> Iterator
+Group--o Group01terator
+Group--o Group02terator
+Group--o Classes01
+Group--o Classes02
+
+
+interface Classes{
+
+    public String showClasses();  //当前具体班级
+
+    public void printGroup(String name);//具体小组
+
+
+    public Iterator createIterator(); //当前迭代器
+}
+note left:年级接口
+
+class Classes01
+note top:一年级
+
+class Classes02
+note top:二年级
+
+Classes01--|> Classes
+Classes02--|> Classes
+
+class  OutPut{
+    List<Classes> mlist;
+     public void printGroup(Iterator iterator);
+}
+note left:完成对所有班级小组的打印
+
+OutPut --o Classes
+OutPut --o Iterator
+
+
+
+@enduml

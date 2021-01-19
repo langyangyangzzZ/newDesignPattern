@@ -4,6 +4,7 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import demo.ht.com.design_pattern.Iterator_pattern.IteratorManager;
 import demo.ht.com.design_pattern.adapter_mode.AdapterManager;
 import demo.ht.com.design_pattern.bridge_mode.BridgeManager;
 import demo.ht.com.design_pattern.builder_mode.BuilderManager;
@@ -58,6 +59,9 @@ public class MainActivity extends AppCompatActivity {
 
         //访问者模式
         dpManager.showDeignPattern(new VisitorManager());
+
+        //迭代器模式
+        dpManager.showDeignPattern(new IteratorManager());
     }
 
     /**

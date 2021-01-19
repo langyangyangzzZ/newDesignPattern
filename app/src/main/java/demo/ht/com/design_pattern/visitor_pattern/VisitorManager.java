@@ -39,7 +39,7 @@ public class VisitorManager implements DesignPattern {
         objectStructure.outputAchievement(xiaoMing,chinese1);
         objectStructure.outputAchievement(xiaoHong,chinese2);
         objectStructure.outputAchievement(xiaoMing,mathematics);
-//        objectStructure.outputAchievement(xiaoZhang,english);
+        objectStructure.outputAchievement(xiaoZhang,english);
 
     }
 }
