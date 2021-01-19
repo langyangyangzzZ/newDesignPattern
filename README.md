@@ -43,6 +43,12 @@
 2021/1/17:<br>
 [java 设计者模式之访问者模式(十四)](https://blog.csdn.net/weixin_44819566/article/details/112746412)<br><br>
 
+2021/1/18:<br>
+[Android 万能适配器BaseQuickAdapter](https://blog.csdn.net/weixin_44819566/article/details/112789000)<br><br>
+
+2021/1/19:<br>
+[Java 设计模式之迭代器模式(十五)](https://blog.csdn.net/weixin_44819566/article/details/112816640)<br><br>
+
 
 
 CSDN地址为:[https://blog.csdn.net/weixin_44819566](https://blog.csdn.net/weixin_44819566)
