@@ -15,6 +15,7 @@ import demo.ht.com.design_pattern.facade_mode.FacadeManager;
 import demo.ht.com.design_pattern.factory_mode.FactoryManager;
 import demo.ht.com.design_pattern.flyweight_mode.FlyWeightManger;
 import demo.ht.com.design_pattern.instance_mode.InstanceManager;
+import demo.ht.com.design_pattern.observer_pattern.ObserverManager;
 import demo.ht.com.design_pattern.proto_type.ProtoTypeManager;
 import demo.ht.com.design_pattern.proxy_mode.ProxyManager;
 import demo.ht.com.design_pattern.template_method_pattern.TemplateManager;
@@ -62,6 +63,9 @@ public class MainActivity extends AppCompatActivity {
 
         //迭代器模式
         dpManager.showDeignPattern(new IteratorManager());
+
+        //观察者模式
+        dpManager.showDeignPattern(new ObserverManager());
     }
 
     /**

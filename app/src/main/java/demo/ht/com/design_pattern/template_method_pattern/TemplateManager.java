@@ -6,7 +6,7 @@ import demo.ht.com.design_pattern.utils.DesignPattern;
 
 /**
  * @ClassName TemplateManager
- * 作者: szj
+ * 作者: 正在蜕变的CV工程师
  * 时间: 2021/1/15
  * CSDN:https://blog.csdn.net/weixin_44819566
  * 公众号:码上变有钱
