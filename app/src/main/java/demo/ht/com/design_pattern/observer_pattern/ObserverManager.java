@@ -1,5 +1,7 @@
 package demo.ht.com.design_pattern.observer_pattern;
 
+import android.util.Log;
+
 import demo.ht.com.design_pattern.utils.DesignPattern;
 
 /**
@@ -19,6 +21,7 @@ public class ObserverManager implements DesignPattern {
         //被观察者
         MilkObserverImpl milkObserver = new MilkObserverImpl("牛奶");
         RedBullObserverImpl redBullObserver = new RedBullObserverImpl("红牛");
+        CocaColaObserverImpl colaObserver = new CocaColaObserverImpl("可口可乐");
 
         //注册牛奶观察者
         subject.registerObserver(milkObserver);
@@ -26,10 +29,19 @@ public class ObserverManager implements DesignPattern {
         //注册红牛观察者
         subject.registerObserver(redBullObserver);
 
+        //刷新 (输出结果)
+        subject.notfiyObservers();
+        Log.i("观察者模式"," ======= 移除商品,重新输出 ============");
         //移除红牛观察者
         subject.removeObserver(redBullObserver);
 
         //刷新 (输出结果)
+        subject.notfiyObservers();
+
+
+        Log.i("观察者模式"," ======= 新商品,重新输出 ============");
+        subject.registerObserver(colaObserver);
+
         subject.notfiyObservers();
         /**
          * 角色分析:

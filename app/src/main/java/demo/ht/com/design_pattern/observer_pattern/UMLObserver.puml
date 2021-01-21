@@ -1,0 +1,36 @@
+@startuml
+
+interface Subject{
+    registerObserver(Observer o);//注册观察者
+    removeObserver(Observer o);//移除观察者
+    notfiyObserver();//刷新观察者
+}
+note left:被观察者
+
+interface Observer{
+    update();
+}
+note left:观察者
+
+Observer --o Subject
+
+class SubjectImpl{
+   List<Observer> list;
+   removeObserver(Observer o);
+   registerObserver(Observer o);
+   notfiyObserver();
+}
+note left:被观察者实现
+
+SubjectImpl ..|> Subject
+
+class MilkObserverImpl
+note left:牛奶观察者实现
+
+class RedBullObserverImpl
+note right:红牛观察者实现
+
+MilkObserverImpl ..|> Observer
+RedBullObserverImpl ..|> Observer
+
+@enduml

@@ -4,6 +4,8 @@ package demo.ht.com.design_pattern.observer_pattern;
  * @author 正在蜕变的CV工程师
  * @ClassName Subject
  * 时间: 2021/1/21 13:28
+ *
+ * 观察则模式 被观察则
  */
 public interface Subject {
 

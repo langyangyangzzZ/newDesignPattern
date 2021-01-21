@@ -4,18 +4,16 @@ import android.util.Log;
 
 /**
  * @author 正在蜕变的CV工程师
- * @ClassName RedBull
- * 时间: 2021/1/21 13:39
+ * @ClassName CocaColaObserverImpl
+ * 时间: 2021/1/21 14:34
  * CSDN:https://blog.csdn.net/weixin_44819566
  * 公众号:码上变有钱
- *
- * 观察者模式
  */
-public class RedBullObserverImpl implements Observer{
+public class CocaColaObserverImpl implements Observer{
 
     String food;
 
-    public RedBullObserverImpl(String food) {
+    public CocaColaObserverImpl(String food) {
         this.food = food;
     }
 

@@ -30,10 +30,7 @@ public class SubjectImpl implements Subject{
     @Override
     public void notfiyObservers() {
         for (int i = 0; i < list.size(); i++) {
-            list.get(i).updata();
+            list.get(i).update();
         }
     }
-
-
-
 }

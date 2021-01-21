@@ -19,7 +19,7 @@ public class MilkObserverImpl implements Observer{
     }
 
     @Override
-    public void updata() {
+    public void update() {
         Log.i("观察者模式","饮料为:  "+food);
     }
 }
