@@ -49,6 +49,9 @@
 2021/1/19:<br>
 [Java 设计模式之迭代器模式(十五)](https://blog.csdn.net/weixin_44819566/article/details/112816640)<br><br>
 
+2021/1/21:<br>
+[java 设计模式之观察者模式(十六)](https://blog.csdn.net/weixin_44819566/article/details/112938408)<br>
+
 
 
 CSDN地址为:[https://blog.csdn.net/weixin_44819566](https://blog.csdn.net/weixin_44819566)
