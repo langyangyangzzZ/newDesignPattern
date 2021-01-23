@@ -1,0 +1,44 @@
+@startuml
+
+abstract Mediator{
+    registerMasterHouse(House h);//房东注册房子
+    removeMasterHouse(House h);//房东移除房子
+
+    registerTenandHouse(House h);//租客注册房子
+    removeerTenandHouse(House h);//租客移除房子
+}
+note left:中介者抽象类
+
+class ConcreateMediator{
+    ArrayList<House> masterList;//房东管理
+    ArrayList<House> tenantList;//组客管理
+    register...
+    remove...
+}
+note left:中介者具体实现
+
+ConcreateMediator--|> Mediator
+
+abstract House{
+    Mediator mediator;
+
+    void sendInfo(String info); //发送房屋消息
+    void getInfo();  //获取房屋消息
+}
+note right:房子抽象方法
+
+ class MasterHouse
+ note left:房东实现
+
+ class TenantHouse
+ note left:租客实现
+
+ MasterHouse --|> House
+ TenantHouse --|> House
+
+
+ House --o ConcreateMediator
+ Mediator --o House
+ House --o Mediator\
+
+@enduml
