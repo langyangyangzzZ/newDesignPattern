@@ -78,6 +78,8 @@ public class MementoManager implements DesignPattern {
         //备忘录
         Caretaker2 caretaker2 = new Caretaker2();
 
+        //保存状态
+        caretaker2.setMemento2(gameRole.saveState());
 
         //大战后攻击力和防御力降低到50
         gameRole.setAggressivity(50);

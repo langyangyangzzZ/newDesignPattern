@@ -4,6 +4,7 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import demo.ht.com.design_pattern.Interpreter_pattern.InterpreterManager;
 import demo.ht.com.design_pattern.Iterator_pattern.IteratorManager;
 import demo.ht.com.design_pattern.adapter_mode.AdapterManager;
 import demo.ht.com.design_pattern.bridge_mode.BridgeManager;
@@ -74,6 +75,9 @@ public class MainActivity extends AppCompatActivity {
 
         //备忘录模式
         dpManager.showDeignPattern(new MementoManager());
+
+        //解释器模式
+        dpManager.showDeignPattern(new InterpreterManager());
     }
 
     /**
