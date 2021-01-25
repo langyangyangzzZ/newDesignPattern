@@ -1,0 +1,33 @@
+@startuml
+
+class Memento{
+   String info;
+}
+note left:保存状态类
+
+class Originator{
+   String info;
+   Memento saveState()//保存对象
+   void RecoveryStatus(Memento m)//恢复当前状态
+}
+note right:需要保存状态类
+
+class Caretaker{
+  List<Memento> list;
+  void  add(Memento m);
+  Memento get(int index);
+}
+note left:保存状态管理类
+
+Memento --o Caretaker
+Memento ..> Originator
+
+class 客户端
+note right:客户端
+
+客户端 --> Caretaker
+客户端 --> Originator
+
+
+
+@enduml
