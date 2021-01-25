@@ -52,6 +52,9 @@
 2021/1/21:<br>
 [java 设计模式之观察者模式(十六)](https://blog.csdn.net/weixin_44819566/article/details/112938408)<br>
 
+2021/1/23:<br>
+[java 设计模式之中介者模式(十七)](https://blog.csdn.net/weixin_44819566/article/details/113048327)
+
 
 
 CSDN地址为:[https://blog.csdn.net/weixin_44819566](https://blog.csdn.net/weixin_44819566)
