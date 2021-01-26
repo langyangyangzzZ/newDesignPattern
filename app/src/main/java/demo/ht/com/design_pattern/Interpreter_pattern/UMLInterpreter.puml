@@ -1,0 +1,46 @@
+@startuml
+abstract Expression{
+int interpreter(HashMap<String , Integer> map)
+}
+note left:表达式抽象类
+
+abstract SymbolExpression{
+Expression left;
+Expression right;
+}
+note left:符号表达式
+
+class AddExpression{
+int interpreter(HashMap<String , Integer> map)
+}
+note left:加法表达式
+
+class SubExpression{
+int interpreter(HashMap<String , Integer> map)
+}
+note right:减法表达式
+
+class VarExpression{
+}
+note right:变量表达式
+
+VarExpression --|> Expression
+
+AddExpression --|> SymbolExpression
+SubExpression --|> SymbolExpression
+SymbolExpression <|--o Expression
+
+class Calculator{
+  Expression exp;
+}
+note right:计算类
+
+class 客户端
+
+客户端  -> Calculator
+
+Expression --o Calculator
+
+
+
+@enduml
