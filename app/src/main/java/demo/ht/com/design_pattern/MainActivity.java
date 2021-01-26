@@ -21,10 +21,18 @@ import demo.ht.com.design_pattern.memento_pattern.MementoManager;
 import demo.ht.com.design_pattern.observer_pattern.ObserverManager;
 import demo.ht.com.design_pattern.proto_type.ProtoTypeManager;
 import demo.ht.com.design_pattern.proxy_mode.ProxyManager;
+import demo.ht.com.design_pattern.state_pattern.StateManager;
 import demo.ht.com.design_pattern.template_method_pattern.TemplateManager;
 import demo.ht.com.design_pattern.utils.DesignPatternManager;
 import demo.ht.com.design_pattern.visitor_pattern.VisitorManager;
 
+/**
+ * @author 正在蜕变的CV工程师
+ * @ClassName StateManager
+ * 时间: 2021/1/26 14:28
+ * CSDN:https://blog.csdn.net/weixin_44819566
+ * 公众号:码上变有钱
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -51,8 +59,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    /*
-     * 行为型
+    /**
+     * 行为型 11种
      */
     private void buildBehavior(DesignPatternManager dpManager) {
         //模板方法模式
@@ -78,10 +86,13 @@ public class MainActivity extends AppCompatActivity {
 
         //解释器模式
         dpManager.showDeignPattern(new InterpreterManager());
+
+        //状态模式
+        dpManager.showDeignPattern(new StateManager());
     }
 
     /**
-     * 结构型
+     * 结构型 7种
      */
     private void builDstructure(DesignPatternManager dpManager) {
         //适配器模式
@@ -107,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * 创建型
+     * 创建型 5种
      */
     private void builDestablish(DesignPatternManager dpManager) {
         //单例模式

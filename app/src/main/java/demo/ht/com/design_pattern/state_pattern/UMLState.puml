@@ -1,0 +1,52 @@
+@startuml
+
+interface State{
+  void deduceMoney();//扣除积分抽奖
+  bool raffle();//是否抽中
+  void dispensePrize();抽中奖发奖品
+}
+note left:抽象类
+
+class NoRaffleState
+note left:扣除积分抽奖
+
+class CanRaffleState
+note right:抽中奖品
+
+class DispenseState
+note left:发放奖品
+
+class DispenseOutState
+note right:奖品发完状态
+
+NoRaffleState..|> State
+CanRaffleState..|> State
+DispenseState..|> State
+DispenseOutState..|> State
+
+
+class StateActivity{
+NoRaffleState no;
+CanRaffleState can;
+DispenseState disp;
+DispenseOutState dispOut;
+
+int number;//奖品个数
+int integral;//积分数量
+}
+note right:状态活动类
+
+StateActivity o--o NoRaffleState
+StateActivity o--o CanRaffleState
+StateActivity o--o DispenseState
+StateActivity o--o DispenseOutState
+
+class 客户端
+
+
+客户端 --> StateActivity
+
+
+
+
+@enduml
