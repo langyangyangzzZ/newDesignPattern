@@ -63,6 +63,9 @@
 [java 设计模式之解释器模式(十九)](https://blog.csdn.net/weixin_44819566/article/details/113174046)<br>
 [java 设计模式之状态模式(二十)](https://blog.csdn.net/weixin_44819566/article/details/113182280)<br><br>
 
+2021/1/27:<br>
+[java 设计模式之策略模式(二十一)](https://blog.csdn.net/weixin_44819566/article/details/113242392)<br><br>
+
 
 
 CSDN地址为:[https://blog.csdn.net/weixin_44819566](https://blog.csdn.net/weixin_44819566)
