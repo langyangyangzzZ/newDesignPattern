@@ -65,6 +65,7 @@
 
 2021/1/27:<br>
 [java 设计模式之策略模式(二十一)](https://blog.csdn.net/weixin_44819566/article/details/113242392)<br><br>
+[java 设计模式之责任链模式(二十二)](https://blog.csdn.net/weixin_44819566/article/details/113248281?spm=1001.2014.3001.5501)
 
 
 
