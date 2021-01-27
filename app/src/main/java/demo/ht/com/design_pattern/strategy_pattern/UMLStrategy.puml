@@ -1,0 +1,39 @@
+@startuml
+
+abstract Duck{
+    Fly mFly;
+      void flyMethod();//飞翔方法
+      void swimming(); 游泳
+}
+note left:鸭子抽象类
+
+class DryDuck
+note top:旱鸭子
+
+class ToyDuck
+note top:玩具鸭子
+
+class WildDuck
+note top:野鸭子
+
+Interface Fly{
+       void fly();
+}
+note left:飞翔策略
+
+class NoFly{}
+note top:不会飞翔
+
+class CanFly{}
+note top:可以飞翔
+
+NoFly ..|> Fly
+CanFly ..|> Fly
+
+Fly --o Duck
+
+DryDuck--|> Duck
+ToyDuck--|> Duck
+WildDuck--|> Duck
+
+@enduml

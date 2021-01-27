@@ -22,6 +22,7 @@ import demo.ht.com.design_pattern.observer_pattern.ObserverManager;
 import demo.ht.com.design_pattern.proto_type.ProtoTypeManager;
 import demo.ht.com.design_pattern.proxy_mode.ProxyManager;
 import demo.ht.com.design_pattern.state_pattern.StateManager;
+import demo.ht.com.design_pattern.strategy_pattern.StrategyManager;
 import demo.ht.com.design_pattern.template_method_pattern.TemplateManager;
 import demo.ht.com.design_pattern.utils.DesignPatternManager;
 import demo.ht.com.design_pattern.visitor_pattern.VisitorManager;
@@ -89,6 +90,9 @@ public class MainActivity extends AppCompatActivity {
 
         //状态模式
         dpManager.showDeignPattern(new StateManager());
+
+        //策略模式
+        dpManager.showDeignPattern(new StrategyManager());
     }
 
     /**

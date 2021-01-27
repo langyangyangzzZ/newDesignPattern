@@ -54,6 +54,5 @@ public class InterpreterManager implements DesignPattern {
         Calculator cal = new Calculator("a+b");
 
         System.out.println( "运算结果为：" + cal.run(map));
-
     }
 }
