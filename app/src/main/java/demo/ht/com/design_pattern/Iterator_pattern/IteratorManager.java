@@ -15,7 +15,7 @@ import demo.ht.com.design_pattern.utils.DesignPattern;
  * CSDN:https://blog.csdn.net/weixin_44819566
  * 公众号:码上变有钱
  *
- * 解释器模式
+ * 迭代器模式
  */
 public class IteratorManager implements DesignPattern {
     @Override
@@ -35,7 +35,6 @@ public class IteratorManager implements DesignPattern {
         }
         */
 
-
         ///////////////////迭代器使用 \\\\\\\\\\\\\\\\\\\\
         ArrayList<Classes> list = new ArrayList<>();
 
@@ -49,9 +48,6 @@ public class IteratorManager implements DesignPattern {
 
         //输出年级
         outPut.printClasses();
-
-
-
 
     }
 }

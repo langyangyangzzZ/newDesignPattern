@@ -11,6 +11,8 @@ import java.util.List;
  * 时间: 2021/1/19 11:06
  * CSDN:https://blog.csdn.net/weixin_44819566
  * 公众号:码上变有钱
+ *
+ * 迭代器模式
  */
 public class OutPut {
 

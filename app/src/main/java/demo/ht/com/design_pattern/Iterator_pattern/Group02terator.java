@@ -9,6 +9,8 @@ import java.util.List;
  * 时间: 2021/1/19 10:49
  * CSDN:https://blog.csdn.net/weixin_44819566
  * 公众号:码上变有钱
+ *
+ * 迭代器模式
  */
 public class Group02terator implements Iterator {
 
