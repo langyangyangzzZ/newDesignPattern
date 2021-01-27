@@ -14,6 +14,8 @@ import demo.ht.com.design_pattern.utils.DesignPattern;
  * 时间: 2021/1/19 10:47
  * CSDN:https://blog.csdn.net/weixin_44819566
  * 公众号:码上变有钱
+ *
+ * 解释器模式
  */
 public class IteratorManager implements DesignPattern {
     @Override
