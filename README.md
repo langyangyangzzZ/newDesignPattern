@@ -60,7 +60,8 @@
 [java 设计模式之备忘录模式(十八)](https://blog.csdn.net/weixin_44819566/article/details/113103956)<br>
 
 2021/1/26:<br>
-[java 设计模式之解释器模式(十九)](https://blog.csdn.net/weixin_44819566/article/details/113174046)<br><br>
+[java 设计模式之解释器模式(十九)](https://blog.csdn.net/weixin_44819566/article/details/113174046)<br>
+[java 设计模式之状态模式(二十)](https://blog.csdn.net/weixin_44819566/article/details/113182280)<br><br>
 
 
 
