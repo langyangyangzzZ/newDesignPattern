@@ -9,6 +9,7 @@ import demo.ht.com.design_pattern.Iterator_pattern.IteratorManager;
 import demo.ht.com.design_pattern.adapter_mode.AdapterManager;
 import demo.ht.com.design_pattern.bridge_mode.BridgeManager;
 import demo.ht.com.design_pattern.builder_mode.BuilderManager;
+import demo.ht.com.design_pattern.chain_of_responsibility.ChainManager;
 import demo.ht.com.design_pattern.command_pattern.CommandManger;
 import demo.ht.com.design_pattern.composite_mode.CompositeManager;
 import demo.ht.com.design_pattern.decorator_mode.DecoratorManager;
@@ -93,6 +94,10 @@ public class MainActivity extends AppCompatActivity {
 
         //策略模式
         dpManager.showDeignPattern(new StrategyManager());
+
+        //责任链模式
+        dpManager.showDeignPattern(new ChainManager());
+
     }
 
     /**

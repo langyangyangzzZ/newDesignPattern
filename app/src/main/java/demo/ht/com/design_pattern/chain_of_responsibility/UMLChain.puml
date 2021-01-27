@@ -1,0 +1,38 @@
+@startuml
+
+class MateralScience{
+  int price;//价格
+}
+note left:材料类
+
+abstract Approver{
+    Approver approver;//下一个责任人
+
+    approvalRequest(MaterialScience materialScience);//购买材料
+}
+note left:责任人抽象类
+
+class DirectorApprover
+note left:主任
+
+class PrincipalApprover
+note left:校长
+
+class ViceDirectorApprover
+note left:副校长
+
+DirectorApprover --|> Approver
+PrincipalApprover --|> Approver
+ViceDirectorApprover --|> Approver
+
+Approver--o Approver
+
+MateralScience ---o Approver
+
+class 客户端
+
+客户端 --> MateralScience
+客户端 --> Approver
+
+
+@enduml
